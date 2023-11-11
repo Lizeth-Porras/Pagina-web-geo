@@ -1,0 +1,211 @@
+/*
+    selector {
+        propiedad: valor;
+        propiedad: valor;
+    }
+*/
+
+body{
+    /* Cambia color de fondo*/
+    background-color: rgb(143, 240, 124);
+    /* color de texto, se puede incluir el alfa que es el cuarto valor que nos indica una transparencia en los elementos*/
+    color: rgb(5, 0, 3);
+    /* Cambiar fuente del texto*/
+    /*font-family: monospace;/*
+    /*si es de google fonts, se copia la segunda url y se pega aquí, la primera se pegó en el index*/
+    font-family: 'Noto Serif', serif;
+}
+
+/* h1, h2, h3.. etc son los subtítulos de nuestra página*/
+h1 {
+    color: rgb(7, 7, 7);
+    font-family: 'Noto Serif', serif;
+    font-size: xxx-large;
+    margin-left: 15%;
+    
+}
+
+h2{
+    color: rgb(165, 45, 45);
+    font-family: 'Noto Serif', serif;
+    font-size: xx-large;
+    margin-left: 5%;
+}
+.box1{
+    inline-size: 1000px;
+    hyphens: manual;
+    overflow-wrap: break-word;
+    font-size: x-large;
+    margin-left: 5%;
+
+}
+
+h3 {
+    color: rgb(165, 45, 45);
+    font-family: 'Noto Serif', serif;   
+    font-size: xx-large;
+    margin-left: 5%;
+}
+
+.box2{
+    inline-size: 1000px;
+    hyphens: manual;
+    overflow-wrap: break-word;
+    font-size: x-large;
+    margin-left: 5%;
+
+}
+
+h4{
+    color: rgb(165, 45, 45);
+    font-family: 'Noto Serif', serif;
+    font-size: xx-large;
+    margin-left: 5%;
+}
+
+.box3{
+    inline-size: 1000px;
+    hyphens: manual;
+    overflow-wrap: break-word;
+    font-size: x-large;
+    margin-left: 5%;
+}
+
+h5{
+    color: rgb(165, 45, 45);
+    font-family: 'Noto Serif', serif;
+    font-size: xx-large;
+    margin-left: 5%;
+}
+
+.box4{
+    inline-size: 1000px;
+    hyphens: manual;
+    overflow-wrap: break-word;
+    font-size: x-large;
+    margin-left: 5%;
+}
+
+h6{
+    color: rgb(165, 45, 45);
+    font-family: 'Noto Serif', serif;
+    font-size: xx-large;
+    margin-left: 28%;
+}
+
+h7{
+    font-family: 'Noto Serif', serif;
+    font-size: x-large;
+    margin-left: 11%;
+}
+
+.video{
+    margin-left: 25%;
+    width: 50%;
+
+}
+
+.box5{
+    inline-size: 1000px;
+    hyphens: manual;
+    overflow-wrap: break-word;
+    font-size: x-large;
+    margin-left: 5%;
+}
+
+.box6{
+    inline-size: 1000px;
+    hyphens: manual;
+    overflow-wrap: break-word;
+    font-size: x-large;
+    margin-left: 5%;
+}
+
+.box7{
+    inline-size: 1000px;
+    hyphens: manual;
+    overflow-wrap: break-word;
+    font-size: x-large;
+    margin-left: 5%;
+}
+
+.box8{
+    inline-size: 1000px;
+    hyphens: manual;
+    overflow-wrap: break-word;
+    font-size: x-large;
+    margin-left: 5%;
+}
+
+.box9{
+    inline-size: 1100px;
+    hyphens: manual;
+    overflow-wrap: break-word;
+    font-size: x-large;
+    margin-left: 5%;
+}
+.box10{
+    inline-size: 1100px;
+    hyphens: manual;
+    overflow-wrap: break-word;
+    font-size: x-large;
+    margin-left: 5%;
+}
+
+.box11{
+    margin-left: 5%;
+}
+a {
+    color:black
+}
+
+img{
+    /* widht: ancho del objeto // height: alto del objeto*/
+    /* se puede anotar como pixeles "15px" por ejemplo, o por porcentajes como "25%"*/
+    width: 38%;
+    height: 450px;
+}
+/* para editar una imagen en específico primero voy al index, busco la imagen que quiero editar y después de "img" escribo "class="nombre-propio-para-la-imagen"*/
+/*después se hace realiza lo de la parte de abajo, después del punto poner el nombre propio que se le dió a la imagen y abrir llaves*/
+.capas-de-la-tierra{
+   
+    width: 65%;
+    height: 50%;
+    /* para editar los bordes (redondeados) es lo siguiente*/
+    border-radius: 10%;
+    /*para poner sombras es lo siguiente (todo tiene que estar en px o en %, no combinado*/
+    /*box-shadow: 10px 25px 75px rgb(245, 69, 69);*/
+    text-align: right;
+}
+
+
+
+.interior-de-la-tierra{
+    width: 60%;
+    text-align:right;
+    border-radius: 5%;
+
+}
+.imagen-de-la-tierra{
+    width: 100%;
+    height: 10%;
+    text-align: center;
+}
+
+.meteorita-allende{
+    width: 31%;
+    height: 10%;
+    margin-left: 9%;
+    border-radius: 8%;
+
+}
+
+.ubicacion-cinturon{
+    width: 40%;
+    height: 30%;
+    margin-left: 10%;
+    border-radius: 8%;
+}
+
+/* se le agrega un class y un nombre al boton de enviar de la página*/
+
